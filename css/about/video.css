@@ -1,9 +1,13 @@
+.video-bg {
+  background: var(--neutral-01);
+}
+
 .video-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  background: var(--neutral-01) url("../../img/BG.png") no-repeat center;
+  background: url("../../img/BG.png") no-repeat center;
   padding-top: 214px;
   padding-bottom: 215px;
 }

@@ -1,0 +1,36 @@
+.information {
+  display: flex;
+  gap: 110px;
+  padding-top: 138px;
+  padding-bottom: 138px;
+}
+
+.information-info h1 {
+  max-width: 16ch;
+  margin-bottom: 20px;
+}
+
+.information-info p {
+  max-width: 50ch;
+  margin-bottom: 60px;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.information-grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--neutral-01);
+  padding: 40px 20px;
+}
+
+.information-img img {
+  border-radius: 12px;
+}

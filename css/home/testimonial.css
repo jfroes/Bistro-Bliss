@@ -7,6 +7,10 @@
   padding-bottom: 135px;
 }
 
+.testimonials h1 {
+  text-align: center;
+}
+
 .testimonial-cards {
   display: flex;
   gap: 24px;
