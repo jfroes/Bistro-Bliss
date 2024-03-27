@@ -1,0 +1,89 @@
+.menu-bg {
+  background: var(--neutral-01);
+}
+
+.menu {
+  padding-top: 85px;
+  padding-bottom: 130px;
+}
+
+.menu-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-intro h1 {
+  margin-bottom: 20px;
+}
+
+.menu-intro p {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 45ch;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+
+.menu-nav li a {
+  color: var(--neutral-07);
+  padding: 12px 40px;
+  border: 1px solid var(--neutral-03);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.menu-nav li a:hover {
+  color: var(--neutral-01);
+  border: 1px solid var(--neutral-08);
+  background: var(--neutral-08);
+  transition: 0.3s;
+}
+
+.menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px; */
+}
+
+.menu-card {
+  max-width: 306px;
+  flex-direction: column;
+  flex: 1 1 23%;
+}
+
+.menu-card img {
+  border-radius: 12px 12px 0px 0px;
+  height: 230px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  /* transition: all 1s ease; */
+}
+
+/* .menu-card img:hover {
+  transform: scale(1.06);
+} */
+
+.menu-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+
+  padding: 30px;
+
+  border-radius: 0px 0px 12px 12px;
+  border-left: 1.5px solid var(--neutral-03);
+  border-bottom: 1.5px solid var(--neutral-03);
+  border-right: 1.5px solid var(--neutral-03);
+}

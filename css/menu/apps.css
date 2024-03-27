@@ -1,0 +1,36 @@
+.apps {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.apps h2 {
+  max-width: 15ch;
+  margin-bottom: 20px;
+}
+
+.apps p {
+  max-width: 30ch;
+}
+
+.apps-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-01);
+  border-radius: 12px;
+  width: 220px;
+  height: 90px;
+}
+
+.app-card img {
+  max-width: 180px;
+}

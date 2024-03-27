@@ -21,3 +21,7 @@
 @import "./about/main.css";
 @import "./about/video.css";
 @import "./about/information.css";
+
+/* Menu */
+@import "./menu/main.css";
+@import "./menu/apps.css";
