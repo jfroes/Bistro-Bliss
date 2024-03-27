@@ -1,0 +1,46 @@
+.delivery {
+  display: flex;
+  gap: 90px;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.delivery-imgs {
+  display: flex;
+  gap: 24px;
+}
+
+.delivery-pratos {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.delivery-info h1 {
+  max-width: 15ch;
+  margin-bottom: 20px;
+}
+
+.delivery-info p {
+  max-width: 40ch;
+  margin-bottom: 50px;
+}
+
+.delivery-info ul li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.delivery-info ul li + li {
+  margin-top: 20px;
+}
+
+.delivery-info ul li img {
+  background: var(--neutral-08);
+  width: 24px;
+  padding: 5px;
+  clip-path: circle(50%);
+  object-position: center;
+}

@@ -1,0 +1,32 @@
+.void-button {
+  font: normal 700 1rem/1.5rem "DM sans", sans-serif;
+
+  color: var(--neutral-07);
+  text-align: center;
+  padding: 20px 32px;
+  border: 2px solid var(--neutral-07);
+  border-radius: 118px;
+  transition: 0.3s;
+}
+
+.void-button:hover {
+  background: var(--neutral-03);
+  transition: 0.3s;
+}
+
+.red-button {
+  font: normal 700 1rem/1.5rem "DM sans", sans-serif;
+  background: var(--neutral-08);
+  color: var(--neutral-01);
+  text-align: center;
+  padding: 20px 32px;
+  border: 2px solid var(--neutral-08);
+  border-radius: 118px;
+  transition: 0.3s;
+}
+
+.red-button:hover {
+  background: #972c35;
+  border-color: #972c35;
+  transition: 0.3s;
+}

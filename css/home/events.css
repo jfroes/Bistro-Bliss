@@ -1,0 +1,39 @@
+.events-bg {
+  background: var(--neutral-01);
+}
+
+.events {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.events h1 {
+  max-width: 20ch;
+  margin-bottom: 57px;
+}
+
+.events-cards {
+  display: flex;
+  gap: 24px;
+}
+
+.event-card {
+  max-width: 290px;
+}
+
+.event-card p {
+  max-width: 30ch;
+  margin-top: 15px;
+}
+
+.event-card h2 {
+  margin-top: 30px;
+}
+
+.event-card div img {
+  height: 320px;
+  width: 306px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center top;
+}

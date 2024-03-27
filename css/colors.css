@@ -1,0 +1,42 @@
+:root {
+  --neutral-01: #fff;
+  --neutral-02: #f9f9f7;
+  --neutral-03: #dbdfd0;
+  --Neutral-04: #adb29e;
+  --Neutral-05: #737865;
+  --neutral-06: #474747;
+  --neutral-07: #2c2f24;
+  --neutral-08: #ad343e;
+}
+
+.neutral-01 {
+  color: var(--neutral-01);
+}
+
+.neutral-02 {
+  color: var(--neutral-02);
+}
+
+.neutral-03 {
+  color: #dbdfd0;
+}
+
+.neutral-04 {
+  color: #adb29e;
+}
+
+.neutral-05 {
+  color: #737865;
+}
+
+.neutral-06 {
+  color: #474747;
+}
+
+.neutral-07 {
+  color: var(--neutral-07);
+}
+
+.neutral-08 {
+  color: #ad343e;
+}

@@ -1,0 +1,38 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  margin: 0;
+  background: var(--neutral-02);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1250px;
+  margin: 0 auto;
+}

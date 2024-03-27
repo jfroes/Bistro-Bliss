@@ -1,0 +1,68 @@
+.about-food {
+  display: flex;
+  gap: 180px;
+  padding-top: 77px;
+  padding-bottom: 242px;
+}
+
+.about-card-info li:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.about-card .about-card-info li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-card .about-card-info ul li:nth-child(1)::before {
+  content: url("/img/phone.png");
+  position: relative;
+  top: 2px;
+}
+
+.about-card .about-card-info ul li:nth-child(2)::before {
+  content: url("/img/mail.svg");
+  position: relative;
+  top: 3px;
+}
+
+.about-card .about-card-info ul li:nth-child(3)::before {
+  content: url("/img/location-marker.svg");
+}
+
+.about-card-info {
+  background: var(--neutral-06);
+  border-radius: 12px;
+
+  position: absolute;
+  max-width: 311px;
+  padding: 50px;
+  margin-top: -271px;
+  margin-left: 150px;
+}
+
+.about-card-info h2 {
+  margin-bottom: 45px;
+}
+
+.about-card-img {
+  position: relative;
+  z-index: -1;
+}
+
+.about-card-img img {
+  border-radius: 12px;
+}
+
+.about-info {
+  max-width: 550px;
+}
+
+.about-info p {
+  margin-top: 24px;
+}
+
+.about-info a {
+  margin-top: 40px;
+}

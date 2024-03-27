@@ -1,0 +1,36 @@
+.our-menu-bg {
+  background: var(--neutral-01);
+}
+
+.our-menu {
+  padding-top: 95px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.our-menu-cards {
+  display: flex;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+.our-menu-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  border: 1.5px solid var(--neutral-03);
+  border-radius: 12px;
+  max-width: 238px;
+  text-align: center;
+  padding: 40px 34px 32px 34px;
+}
+
+.our-menu-card a {
+  color: var(--neutral-08);
+}
+
+.our-menu-card a:hover {
+  color: #972c35;
+}

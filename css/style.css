@@ -1,0 +1,20 @@
+/* Global */
+@import "./global.css";
+@import "./typography.css";
+@import "./colors.css";
+@import "./components.css";
+
+/* header & footer*/
+@import "./header.css";
+@import "./footer.css";
+
+/* Home */
+@import "./home/main.css";
+@import "./home/our-menu.css";
+@import "./home/about.css";
+@import "./home/events.css";
+@import "./home/delivery.css";
+@import "./home/testimonial.css";
+@import "./home/blog.css";
+
+/* About */
