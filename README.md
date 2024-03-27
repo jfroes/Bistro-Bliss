@@ -1,5 +1,5 @@
 TO-DO Pages
-- [x]Home
+- [x] Home
 - [ ] About
 - [ ] Menu
 - [ ] Book
