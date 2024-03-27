@@ -1,7 +1,8 @@
 TO-DO Pages
+
 - [x] Home
 - [x] About
-- [ ] Menu
+- [x] Menu
 - [ ] Book
 - [ ] Blog (CMS)
 - [ ] Contact
