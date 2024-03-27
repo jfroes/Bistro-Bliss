@@ -1,6 +1,6 @@
 TO-DO Pages
 - [x] Home
-- [ ] About
+- [x] About
 - [ ] Menu
 - [ ] Book
 - [ ] Blog (CMS)
