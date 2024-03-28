@@ -18,6 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   align-items: center;
+  justify-items: center;
 }
 
 .app-card {
@@ -28,6 +29,11 @@
   background: var(--neutral-01);
   border-radius: 12px;
   width: 220px;
+  height: 90px;
+}
+
+.app-card:nth-child(n + 4):nth-child(-n + 6) {
+  width: 260px;
   height: 90px;
 }
 
