@@ -13,13 +13,32 @@
   max-width: 30ch;
 }
 
-.apps-cards {
+/* .apps-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   align-items: center;
   justify-items: center;
+} */
+
+.apps-cards {
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60%;
+  justify-content: center;
 }
+
+/* .app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-01);
+  border-radius: 12px;
+  width: 220px;
+  height: 90px;
+} */
 
 .app-card {
   display: flex;
@@ -30,11 +49,16 @@
   border-radius: 12px;
   width: 220px;
   height: 90px;
+  place-self: auto;
+  flex-basis: 220px;
 }
 
 .app-card:nth-child(n + 4):nth-child(-n + 6) {
   width: 260px;
   height: 90px;
+  flex-basis: 234px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .app-card img {
