@@ -1,0 +1,33 @@
+.form-container {
+  background: var(--neutral-01);
+  border-radius: 16px;
+
+  padding: 50px;
+  max-width: 812px;
+
+  position: absolute;
+
+  transform: translate(-50%, -85%);
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-container label {
+  font: normal 700 1rem/1.5rem "DM sans", sans-serif;
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px 24px;
+  font: normal 400 1rem/1.5rem "DM sans", sans-serif;
+  border: 1px solid var(--neutral-03);
+  border-radius: 72px;
+  background: var(--neutral-01);
+}
