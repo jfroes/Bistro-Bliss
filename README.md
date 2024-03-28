@@ -5,5 +5,5 @@ TO-DO Pages
 - [x] Menu
 - [ ] Book
 - [ ] Blog (CMS)
-- [ ] Contact
+- [ ] Blog Single (CMS)
 - [ ] Contact
